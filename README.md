@@ -54,11 +54,6 @@ The model is evaluated using:
 - **Out-of-Domain (OOD) Detection**  
 
 ---
-## Installation  
-Install dependencies:  
-```bash
-pip install -r requirements.txt
-```  
 Train and evaluate:  
 ```bash
 python train.py --batch-size 128 --test-batch-size 512 --lr 1e-3 --epochs 256
